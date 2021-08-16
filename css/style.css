@@ -37,3 +37,16 @@
   border-radius: 1rem;
   overflow: hidden;
 }
+
+.btn {
+  background-color: var(--background-color);
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.btn:hover {
+  background-color: var(--titles-color);
+}
+.btn:hover svg path {
+  fill: white;
+}
