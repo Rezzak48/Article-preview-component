@@ -1,0 +1,39 @@
+.card-title {
+  font-size: 1.6rem;
+  letter-spacing: 0.02rem;
+  line-height: 2.3rem;
+  color: var(--titles-color);
+  font-weight: 700;
+}
+
+.card-body {
+  padding: 3rem 2rem;
+}
+
+.card-text {
+  color: var(--paragraph-color);
+  line-height: 2rem;
+  letter-spacing: 0.05rem;
+  padding-bottom: 1rem;
+}
+
+.avatar-img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.avatar-name {
+  color: var(--titles-color);
+  font-weight: 700;
+  letter-spacing: 0.012rem;
+}
+
+.post-date {
+  color: var(--paragraph-color);
+  letter-spacing: 0.012rem;
+}
+
+.card-con {
+  border-radius: 1rem;
+  overflow: hidden;
+}
