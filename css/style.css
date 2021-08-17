@@ -7,7 +7,7 @@
 }
 
 .card-body {
-  padding: 3rem 2rem;
+  padding: 3rem;
 }
 
 .card-text {
@@ -38,15 +38,46 @@
   overflow: hidden;
 }
 
-.btn {
+.share-btn-case1 {
   background-color: var(--background-color);
   border-radius: 50%;
   width: 3.2rem;
   height: 3.2rem;
 }
-.btn:hover {
+.share-btn-case1:hover {
   background-color: var(--titles-color);
 }
-.btn:hover svg path {
+.share-btn-case1:hover svg path {
   fill: white;
+}
+
+.foot-social {
+  background-color: var(--titles-color);
+}
+
+#foot2 {
+  /* display: none !important; */
+  /* display: block; */
+}
+
+.SHARE_P {
+  color: var(--paragraph-color);
+  letter-spacing: 0.5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  padding-right: 1rem;
+}
+
+.social-media {
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2.6rem 3rem;
 }
