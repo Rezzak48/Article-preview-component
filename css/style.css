@@ -1,3 +1,9 @@
+.card {
+  max-width: 73rem;
+  width: 100%;
+  box-shadow: 0 4rem 4rem -1rem rgba(201, 213, 225, 0.5);
+}
+
 .card-title {
   font-size: 1.6rem;
   letter-spacing: 0.02rem;
@@ -50,14 +56,29 @@
 .share-btn-case1:hover svg path {
   fill: white;
 }
+.share-btn-case2 {
+  background-color: white;
+  border-radius: 50%;
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.share-btn-case2:hover {
+  background-color: var(--paragraph-color);
+}
+.share-btn-case2:hover svg path {
+  fill: white;
+}
 
 .foot-social {
   background-color: var(--titles-color);
 }
 
-#foot2 {
-  /* display: none !important; */
-  /* display: block; */
+.foot2-display {
+  display: none !important;
+  /* animation: name duration timing-function delay iteration-count direction
+    fill-mode; */
+  animation-delay: 0.5s;
+  animation-duration: 0.5s;
 }
 
 .SHARE_P {
@@ -80,4 +101,8 @@
   left: 0;
   right: 0;
   padding: 2.6rem 3rem;
+}
+
+.card-img {
+  height: 100%;
 }

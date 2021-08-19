@@ -1,4 +1,4 @@
 function shareBtn() {
-  this.document.getElementById("foot2").style.display = "block";
-  // this.document.getElementById("foot1").style.display = "none";
+  let foot2 = document.getElementById("foot2");
+  foot2.classList.toggle("foot2-display");
 }
